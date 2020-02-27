@@ -21,8 +21,8 @@ repositories:
       version: 1.2.5-1
     source:
       type: git
-      url: git@github.com:ScalABLE40/wsg50-ros-pkg.git
-      version: master
+      url: git@github.com:ipa-rwu/ur5e_egp50.git
+      version: kogrob
     status: developed
 type: distribution
 version: 1
