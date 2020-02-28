@@ -14,10 +14,9 @@ repositories:
     release:
       packages:
       - ur5e_egp50_moveit_config
-      - ur5e_egp50_description
       tags:
         release: release/melodic/{package}/{version}
-      url: git@github.com:ipa-rwu/ur5e_egp50.git
+      url: git@github.com:ipa-rwu/ur5e_egp50-release.git
       version: 1.2.5
     source:
       type: git
