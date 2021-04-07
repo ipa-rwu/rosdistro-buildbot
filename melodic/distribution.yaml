@@ -4,7 +4,7 @@
 ---
 release_platforms:
   ubuntu:
-  - xenial
+  - bionic
 repositories:
   ur5e_egp50:
     doc:
@@ -13,11 +13,11 @@ repositories:
       version: kogrob
     release:
       packages:
-      - ur5e_egp50_moveit_config
+      - ur5e_egp50_description
       tags:
         release: release/melodic/{package}/{version}
       url: git@github.com:ipa-rwu/ur5e_egp50-release.git
-      version: 1.2.5
+      version: 1.2.6-1
     source:
       type: git
       url: git@github.com:ipa-rwu/ur5e_egp50.git
