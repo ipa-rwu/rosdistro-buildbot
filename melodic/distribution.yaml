@@ -6,6 +6,53 @@ release_platforms:
   ubuntu:
   - bionic
 repositories:
+  universal_robot:
+    doc:
+      type: git
+      url: git@github.com:ipa-rwu/universal_robot.git
+      version: release
+    release:
+      packages:
+      - universal_robot
+      - universal_robots
+      - ur5_e_moveit_config
+      - ur_bringup
+      - ur_driver
+      - ur_e_description
+      - ur_e_gazebo
+      - ur_gazebo
+      - ur_kinematics
+      - ur_msgs
+      tags:
+        release: release/melodic/{package}/{version}
+      url: git@github.com:ipa-rwu/universal_robot-release.git
+      version: 1.2.7-1
+    source:
+      type: git
+      url: git@github.com:ipa-rwu/universal_robot.git
+      version: release
+    status: developed  
+  ur_ros_driver:
+    doc:
+      type: git
+      url: git@github.com:ipa-rwu/Universal_Robots_ROS_Driver.git
+      version: release
+    release:
+      packages:
+      - controller_stopper
+      - ur_calibration
+      - ur_controllers
+      - ur_dashboard_msgs
+      - ur_robot_driver
+      tags:
+        release: release/melodic/{package}/{version}
+      url: git@github.com:ipa-rwu/ur_ros_driver-release.git
+      version: 0.0.2-1
+    source:
+      type: git
+      url: git@github.com:ipa-rwu/Universal_Robots_ROS_Driver.git
+      version: release
+    status: developed
   ur5e_egp50:
     doc:
       type: git
